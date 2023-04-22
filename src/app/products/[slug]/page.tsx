@@ -4,7 +4,6 @@ import Image from "next/image";
 import jeans from '../../../../public/images/images/jeans.jpg'
 import tshirt from '../../../../public/images/images/tshirt.jpg'
 import shoes from '../../../../public/images/images/shoes.jpg'
-import Prev from "@/components/PrevPage";
 
 type Props = {
   params: {
@@ -40,7 +39,7 @@ export default async function PantsPage({ params: { slug } }: Props) {
       {product?.id==='1234'?<Image src={jeans} alt="Jeans" width={300} height={300}></Image>:null}
       {product?.id==='1235'?<Image src={tshirt} alt="Tshirt" width={300} height={300}></Image>:null}
       {product?.id==='1236'?<Image src={shoes} alt="Shoes" width={300} height={300}></Image>:null}
-    <Prev></Prev>
+
     </div>
   );
 }
