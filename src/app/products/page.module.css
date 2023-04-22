@@ -1,0 +1,22 @@
+.products_list {
+  list-style: none;
+}
+.products_list > a {
+  text-decoration: none;
+  color: black;
+}
+
+.products_list > a:hover {
+  color: brown;
+}
+
+.cats_container {
+  width: 100%;
+  border: 2px solid black;
+  padding: 10px;
+  border-color: tomato;
+}
+
+.cats_container > p {
+  font-size: 16px;
+}

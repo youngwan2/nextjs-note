@@ -1,0 +1,32 @@
+
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  background-color: black;
+  color:white;
+}
+
+.menu{
+    margin-right: 0.5rem;
+}
+.menu li{
+    display: inline;
+    margin: 10px;
+    list-style: none;
+}
+
+.menu li a{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color:tomato;
+  transition: 1s;
+}
+
+
+.menu li a:hover{
+  color:white;
+}
