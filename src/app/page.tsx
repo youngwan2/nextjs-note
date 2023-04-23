@@ -4,7 +4,7 @@ export default function Home() {
   console.log("ㅎㅇ");
   return (
     <h1>
-      홈페이지닷!!!!
+      버전3 이닷!
       <Counter />
     </h1>
   );
